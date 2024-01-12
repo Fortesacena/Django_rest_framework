@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import ListView
-from .models import Book
+from books.models import Book
 
 class BookListView(ListView):
     model = Book
